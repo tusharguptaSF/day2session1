@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var todocheck_1 = require("./todocheck");
+// let todos = new TodoManager("Js Session");
+// console.log(`task =${todos.getTask()}` );
+// console.log(`task 2 = ${todos.task}`);
+var todocheck = new todocheck_1.Todocheck("12/12/2020");
+console.log(" " + todocheck.getTaskWithDate());
+todocheck_1.Todocheck.todocount = 10;
+console.log(todocheck_1.Todocheck.todocount);
